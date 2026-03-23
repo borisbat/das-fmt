@@ -1,12 +1,12 @@
 options gen2
 options indenting = 4
 
-module log shared
+module log
 
-require rtti
+require daslib/rtti
 require uriparser
 require strings
-require fio
+require daslib/fio
 
 
 let private verbose = false

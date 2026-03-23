@@ -1,9 +1,9 @@
 options gen2
 options indenting = 4
 
-module fs shared
+module fs
 
-require fio
+require daslib/fio
 require strings
 require uriparser
 
